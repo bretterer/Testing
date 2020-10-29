@@ -9,4 +9,9 @@ class ExampleTest extends TestCase {
     public function example() {
         $this->assertTrue(true);
     }
+
+    /** @test */
+    public function anotherTest() {
+        $this->assertTrue(true);
+    }
 }
