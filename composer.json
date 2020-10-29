@@ -1,0 +1,8 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit ./tests --colors=always"
+    }
+}
