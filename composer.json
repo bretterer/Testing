@@ -1,7 +1,16 @@
 {
+    "name": "bretterer/testing",
+    "description": "Testing Repo",
     "require": {
         "phpunit/phpunit": "^9.4"
     },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Retterer",
+            "email": "bretterer@gmail.com"
+        }
+    ],
     "scripts": {
         "test": "vendor/bin/phpunit ./tests --colors=always"
     }
